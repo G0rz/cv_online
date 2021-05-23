@@ -16,6 +16,8 @@
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <!--Implementaciones locales-->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
@@ -23,28 +25,108 @@
     <header id="header">
         <div class="container-fluid header-bg">
             <div class="row">
-                <div class="col-12 m-5">
-                    <a class="btn btn-outline-light" href="files/CV-LeonardoYaelBazánBecerril.pdf"
+                <div class="col-12">
+                    <a class="btn btn-outline-light m-md-5" href="files/CV-LeonardoYaelBazánBecerril.pdf"
                         download="CV-LeonardoYaelBazánBecerril.pdf">Descargar Resumen</a>
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center align-items-center">
                 <div class="col-12 text-center text-white">
                     <h1>Leonardo Yael Bazan Becerril</h1>
-                    <h6>Ingeniero en Sistemas Computacionales</h6>
-                    <img class="circle-padding my-3" src="img/profile_picture.jpg" alt="profile picture">
+                    <h5>Ingeniero en Sistemas Computacionales</h5>
+                    <img class="circle-padding my-md-5" src="img/profile_picture.jpg" alt="profile picture">
                 </div>
             </div>
     </header>
 
     <main>
         <section>
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
+        <div class="container bottom_border">
+            <div class="row">
 
+                <div class=" col-sm col-md-6 col-12">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Contacto: </h5>
+                    <p><i class="fa fa-location-arrow"></i> CAPULTITLAN, TOLUCA EDO. MÉX. CP: 50260 </p>
+                    <p><i class="fa fa-phone"></i> +52 55-2305-4299 </p>
+                    <p><i class="fa fa fa-envelope"></i> leonardo.becerril@hotmail.com </p>
+                    <ul class="social_footer_ul m-4">
+                        <li><a href="https://www.linkedin.com/in/typenull/" target="_blank" rel="noopener noreferrer"><i
+                                    class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://www.facebook.com/TypelNull/" target="_blank" rel="noopener noreferrer"><i
+                                    class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://github.com/G0rz" target="_blank" rel="noopener noreferrer"><i
+                                    class="fab fa-github"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class=" col-sm col-md col-12" style="background-color: #0c191e;">
+                    <div class="headin5_amrc col_white_amrc pt2">
+                        <h5>Enviame un correo:</h5>
+                        <form id="contact-form" class="contact" method="POST" action="/mail.php">
+                            <div class="form-group">
+                                <input name="nombre" type="text" class="form-control name-field"
+                                    placeholder="Nombre(s) " required>
+                            </div>
+                            <div class="form-group">
+                                <input name="email" type="email" class="form-control mail-field" placeholder="E-mail"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <input name="asunto" type="text" class="form-control name-field" placeholder="Asunto "
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="mensaje" id="message" class="form-control" rows="4"
+                                    placeholder="Mensaje" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input name="submit" type="submit" class="btn btn-outline-light"
+                                    value="        Enviar      ">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <ul class="foote_bottom_ul_amrc">
+                <li><a href="#cabeza">Volver al inicio</a></li>
+                <li><a href="/resources/files/CV-LeonardoYaelBazánBecerril.pdf"
+                        download="CV-LeonardoYaelBazánBecerril.pdf">Descargar Resumen</a></li>
+            </ul>
+
+            <p class="text-center">Copyright @2021 | Designed by
+                <a href="#cabeza">Leonardo Yael Bazan Becerril</a>
+            </p>
+
+        </div>
     </footer>
 
     <!-- SCRIPTS -->

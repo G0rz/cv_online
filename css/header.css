@@ -1,0 +1,17 @@
+.header-bg {
+    min-height: 9.375rem;
+    max-height: 24.375rem;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/background2.jpg');
+}
+
+.circle-padding {
+    width: 15rem;
+    height: 15rem;
+    border: 0.625rem solid white;
+    border-radius: 50%;
+    object-fit: cover;
+}
