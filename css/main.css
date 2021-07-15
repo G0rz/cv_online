@@ -1,0 +1,32 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.social-links {
+    font-size: 1rem;
+    width: 35px;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 5px 2px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid black;
+    color: black;
+}
+
+.social-links:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #0487cc;
+    border-color: #0487cc;
+    box-shadow: 0 0 3px #0487cc;
+}
+
+.current-date{
+    color: rgb(10, 163, 0);
+}
+
+.past-date{
+    color: rgb(148, 163, 186);
+}
