@@ -57,7 +57,7 @@ footer p {
 .social-links2:hover {
     color: white;
     text-decoration: none;
-    background-color: #0487cc;
-    border-color: #0487cc;
-    box-shadow: 0 0 3px #0487cc;
+    background-color: black;
+    border-color: black;
+    border: 2px solid white;
 }
