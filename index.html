@@ -2,17 +2,8 @@
 <html lang="en">
 
 <head>
-    <!--Meta datos-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="author" content="Leonardo Yael Bazan Becerril">
-    <meta http-equiv="content-language" content="es">
-    <meta name=”distribution” content=”global” />
-    <meta name="Keywords" content="leonardo yael bazan becerril,cv" />
-    <meta name="description" content="Una breve descripción sobre mi, Leonardo Yael Bazán Becerril.
-      Esta es una página web que resume mis habilidades y experiencias laborales en el campo de la programación.">
-    <!---->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mi CV Leonardo Yael Bazan Becerril</title>
     <!--Icono de la pagina-->
     <link rel="icon" type="image/png" href="img/icon.png" />
@@ -24,59 +15,407 @@
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--Implementaciones locales-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" type="text/css"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" type="text/css"
+        rel="stylesheet" />
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
+    <header id="header">
+        <div class="container-fluid header-bg">
+            <div class="row p-5 p-md-0">
+                <div class="col-12 text-center text-md-left">
+                    <a class="btn btn-outline-light m-md-5" href="files/CV-LeonardoYaelBazánBecerril.pdf"
+                        download="CV-LeonardoYaelBazánBecerril.pdf">Descargar Resumen</a>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 text-center text-white">
+                    <h1>Leonardo Yael Bazán Becerril</h1>
+                    <h5>Pasante de Ingenieria en Sistemas Computacionales</h5>
+                    <img class="circle-padding mt-md-5" src="img/profile_picture.jpg" alt="profile picture">
+                </div>
+            </div>
+        </div>
+        <div class="container py-5"></div>
+    </header>
 
-    <section id="header">
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-md-6 col-sm-6">
-                    <div class="header-content-left">
-                        <img src="img/background.jpg" style="width: 100%;">
+    <main>
+        <section>
+            <div class="container pt-md-5 pt-3">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-1 col-2">
+                        <a href="https://github.com/G0rz" class="fab fa-github social-links" data-toggle="tooltip"
+                            data-placement="top" target="_blank" rel="noopener noreferrer" title="Github"></a>
+                    </div>
+                    <div class="col-md-1 col-2">
+                        <a href="https://www.linkedin.com/in/typenull/" class="fab fa-linkedin-in social-links"
+                            data-toggle="tooltip" target="_blank" rel="noopener noreferrer" data-placement="top"
+                            title="Linkedin"></a>
+                    </div>
+                    <div class="col-md-1 col-2">
+                        <a href="https://api.whatsapp.com/send?phone=525523054299" class="fab fa-whatsapp social-links"
+                            data-toggle="tooltip" target="_blank" rel="noopener noreferrer" data-placement="top"
+                            title="Whatsapp"></a>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-6">
-                    <div class="header-content-right">
-                        <h1 class="display-4">Sit asperiores voluptas atque autem?</h1>
-                        <p class="mt-5">Amet possimus omnis dolore aliquid quam. Officiis nulla nam laudantium iure
-                            amet. Debitis maiores enim modi porro sunt. Ratione harum quasi odit nemo rerum eveniet
-                            dolorem quas rem asperiores voluptate!</p>
-                        <a href="#" class="btn btn-outline-secondary header-btn btn-lg mt-2">Read More</a>
+            </div>
+        </section>
+
+        <section>
+            <div class="container py-3">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col">
+                        <h2><i class="fas fa-address-card"></i> SOBRE MÍ</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <p class="text-justify">Soy estudiante en el último semestre de la carrera de ingeniería en
+                            sistemas computacionales que se
+                            apasiona por la tecnología y el software.
+                            Puedo adaptarme fácilmente a las formas de trabajo tanto en equipo como por iniciativa
+                            propia. Estoy en búsqueda de una residencia profesional que ayude a convertirme en un
+                            gran desarrollador de software, mayormente interesado en el desarrollo web full stack,
+                            utilizando las mejores practicas y aprendiendo todos los días.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container py-3">
+                <div class="row">
+                    <div class="col-12">
+                        <h2><i class="fas fa-graduation-cap"></i> EDUCACIÓN</h2>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-center text-center">
+                    <div class=" col-md-6 mb-md-0 mb-3">
+                        <div class="card bg-light border-success" data-aos="fade-right">
+                            <div class="card-header border-success current-date">TOLUCA: JUL/2021 - ACTUALIDAD</div>
+                            <div class="card-body">
+                                <h5 class="card-title">Think-e English Courses</h5>
+                                <p class="card-text">Idioma Inglés</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" col-md-6">
+                        <div class="card bg-light border-secondary" data-aos="fade-right">
+                            <div class="card-header border-secondary past-date">TOLUCA: AGO/2015 - DIC/2020</div>
+                            <div class="card-body">
+                                <h5 class="card-title">Instituto Tecnológico de Toluca</h5>
+                                <p class="card-text">Ingenería en Sistemas Computacionales</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container py-3">
+                <div class="row">
+                    <div class="col-12">
+                        <h2><i class="fas fa-briefcase"></i> EXPERIENCIA LABORAL</h2>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-center text-center">
+                    <div class=" col-md-6 mb-md-0 mb-3">
+                        <div class="card bg-light border-success" data-aos="fade-right">
+                            <div class="card-header border-success current-date">TOLUCA: MAR/2021 - ACTUALIDAD</div>
+                            <div class="card-body">
+                                <a href="https://satoritech.com.mx/"> <img src="img/satoriLogo.png" width="150px"></a>
+                                <p class="card-text">Desarrollador Jr./Practicas profesionales</p>
+                                <h5 class="card-title">Logros:</h5>
+                                <p>- Aprendizaje del proceso de la creacion de sistemas web.<br>
+                                    - Aprendizaje del uso de frameworks como Laravel, Bootstrap y Vuejs.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" col-md-6 mb-md-0 mb-3">
+                        <div class="card bg-light border-secondary" data-aos="fade-right">
+                            <div class="card-header border-secondary past-date">TOLUCA: ENE/2019 - JUL/2019</div>
+                            <div class="card-body">
+                                <img src="img/edemLogo.png" width="150px">
+                                <p class="card-text">Desarrollador de Sistemas de Planificación Empresarial</p>
+                                <h5 class="card-title">Logros:</h5>
+                                <p>- Apoyo en el levantamiento de requerimientos, soporte técnico y desarrollo de
+                                    módulos web para el sistema de “LA LIBRERÍA UNIVERSITARIA UAEMEX”.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" col-md-6 mt-md-3 mt-0">
+                        <div class="card bg-light border-secondary" data-aos="fade-right">
+                            <div class="card-header border-secondary current-date">TOLUCA: 2012 - ACTUALIDAD</div>
+                            <div class="card-body">
+                                <p class="card-text">Soporte Tecnico</p>
+                                <h5 class="card-title">Logros:</h5>
+                                <p>- Aprendizaje del mantenimiento preventivo y correctivo a equipos de cómputo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container py-3">
+                <div class="row">
+                    <div class="col-12">
+                        <h2><i class="fas fa-laptop-code"></i> HABILIDADES COMPUTACIONALES</h2>
+                    </div>
+                </div>
+                <div class="row text-center p-3">
+                    <div class="col-12">
+                        <div class="owl-carousel">
+                            <div class="card card-body bg-light border-success">
+                                <div class="pt-3 pb-3">
+                                    <h3 class="owl-name">Vuejs</h3>
+                                </div>
+                                <div class="pb-md-2 pb-sm-1">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg"
+                                        alt="logoVuejs">
+                                </div>
+                                <div>
+                                    <p class="current-date">Aprendiendo</p>
+                                </div>
+                            </div>
+                            <div class="card card-body bg-light border-success">
+                                <div class="pt-3 pb-3">
+                                    <h3 class="owl-name">Vuetify</h3>
+                                </div>
+                                <div class="pb-md-2 pb-sm-1">
+                                    <img src="https://bestofjs.org/logos/vuetify.svg"
+                                        alt="logoVuetify">
+                                </div>
+                                <div>
+                                    <p class="current-date">Aprendiendo</p>
+                                </div>
+                            </div>
+                            <div class="card card-body bg-light border-success">
+                                <div class="pt-3 pb-3">
+                                    <h3 class="owl-name">Javascript</h3>
+                                </div>
+                                <div class="pb-md-2 pb-sm-1">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                                        alt="logoJavascript">
+                                </div>
+                                <div>
+                                    <p class="current-date">Aprendiendo</p>
+                                </div>
+                            </div>
+                            <div class="card card-body bg-light">
+                                <div class="pt-3 pb-3">
+                                    <h3 class="owl-name">Laravel</h3>
+                                </div>
+                                <div class="pb-md-2 pb-sm-1">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="logoLaravel">
+                                </div>
+                            </div>
+                            <div class="card card-body bg-light">
+                                <div class="pt-3 pb-3">
+                                    <h3 class="owl-name">Bootstrap 4</h3>
+                                </div>
+                                <div class="pb-md-2 pb-sm-1">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="logoBootstrap">
+                                </div>
+                            </div>
+                            <div class="card card-body bg-light">
+                                <div class="pt-3 pb-3">
+                                    <h3 class="owl-name">PHP</h3>
+                                </div>
+                                <div class="pb-md-2 pb-sm-1">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="logoPHP">
+                                </div>
+                            </div>
+                            <div class="card card-body bg-light">
+                                <div class="pt-3 pb-3">
+                                    <h3 class="owl-name">CSS3</h3>
+                                </div>
+                                <div class="pb-md-2 pb-sm-1">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="logoCSS">
+                                </div>
+                            </div>
+                            <div class="card card-body bg-light">
+                                <div class="pt-3 pb-3">
+                                    <h3 class="owl-name">HTML5</h3>
+                                </div>
+                                <div class="pb-md-2 pb-sm-1">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="logoHTML5">
+                                </div>
+                            </div>
+                            <div class="card card-body bg-light">
+                                <div class="pt-3 pb-3">
+                                    <h3 class="owl-name">Linux</h3>
+                                </div>
+                                <div class="pb-md-2 pb-sm-1">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="logoTux">
+                                </div>
+                            </div>
+                            <div class="card card-body bg-light">
+                                <div class="pt-3 pb-3">
+                                    <h3 class="owl-name">MySQL</h3>
+                                </div>
+                                <div class="pb-md-2 pb-sm-1">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="logoMySQL">
+                                </div>
+                            </div>
+                            <div class="card card-body bg-light">
+                                <div class="pt-3 pb-3">
+                                    <h3 class="owl-name">Java</h3>
+                                </div>
+                                <div class="pb-md-2 pb-sm-1">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="logoJava">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section>
+            <div class="container py-3">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12">
+                        <h2><i class="fas fa-globe-americas"></i> IDIOMAS</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-3 mb-4 text-center">
+                        <div class="card border-success" data-aos="fade-right">
+                            <div class="card-header border-success current-date">JUL/2021 - ACTUALIDAD</div>
+                            <div class="card-body">
+                                <h5 class="card-title">Inglés B1</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4 text-center">
+                        <div class="card border-secondary" data-aos="fade-right">
+                            <div class="card-header">NATIVO</div>
+                            <div class="card-body">
+                                <h5 class="card-title">Español</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container py-3">
+                <div class="row">
+                    <div class="col-12">
+                        <h2><i class="fas fa-layer-group"></i> ANEXOS</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12 text-white text-md-left text-center">
+                    <h5 class="headin5_amrc pt2">CONTACTO: </h5>
+                    <h6><i class="fa fa-phone"></i> +52 55-2305-4299 </h6>
+                    <h6><i class="fa fa fa-envelope"></i> leonardo.becerril@hotmail.com </h6>
+                    <h6><i class="fa fa-location-arrow"></i> TOLUCA, ESTADO DE MÉXICO</h6>
+                    <div class="row justify-content-center align-items-center p-3">
+                        <div class="col-md-1 col-2">
+                            <a href="https://github.com/G0rz" class="fab fa-github social-links2" data-toggle="tooltip"
+                                data-placement="top" target="_blank" rel="noopener noreferrer" title="Github"></a>
+                        </div>
+                        <div class="col-md-1 col-2">
+                            <a href="https://www.linkedin.com/in/typenull/" class="fab fa-linkedin-in social-links2"
+                                data-toggle="tooltip" target="_blank" rel="noopener noreferrer" data-placement="top"
+                                title="Linkedin"></a>
+                        </div>
+                        <div class="col-md-1 col-2">
+                            <a href="https://api.whatsapp.com/send?phone=525523054299"
+                                class="fab fa-whatsapp social-links2" data-toggle="tooltip" target="_blank"
+                                rel="noopener noreferrer" data-placement="top" title="Whatsapp"></a>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <q><i>No importa que tan rapido seas, la vida misma es aún más rapida. Solo acepta y sigue
+                                adelante.</i></q>
+                    </div>
+                </div>
+                <div class="col-sm col-md col-12 text-md-left text-center">
+                    <div class="headin5_amrc text-white pt2">
+                        <h5>ENVIAME UN CORREO:</h5>
+                        <form name="contact-form" method="post" data-netlify="true">
+                            <div class="form-group">
+                                <input name="nombre" type="text" class="form-control name-field" placeholder="Nombre(s)"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <input name="email" type="email" class="form-control mail-field" placeholder="E-mail"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <input name="asunto" type="text" class="form-control name-field" placeholder="Asunto"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="mensaje" id="message" class="form-control" rows="4"
+                                    placeholder="Mensaje" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-outline-light">Enviar</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
 
-    <section>
+        <hr class="bottom-border">
 
-    </section>
-
-    <section>
-
-    </section>
-
-    <section>
-
-    </section>
-
-    <footer>
-
+        <div class="container-fluid">
+            <ul class="foote_bottom_ul_amrc">
+                <li><a href="#header">Volver al inicio</a></li>
+                <li><a href="files/CV-LeonardoYaelBazánBecerril.pdf"
+                        download="CV-LeonardoYaelBazánBecerril.pdf">Descargar Resumen</a></li>
+            </ul>
+            <p class="text-center">Copyright @2021 | Designed by
+                <a href="https://github.com/G0rz" data-toggle="tooltip" target="_blank" rel="noopener noreferrer"
+                    data-placement="top" title="G0rz">Leonardo Yael Bazan Becerril</a>
+            </p>
+        </div>
     </footer>
 
     <!-- SCRIPTS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
         integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.min.js">
+    </script>
+    </script>
+    <script>$(function () { $('[data-toggle="tooltip"]').tooltip() })</script>
+    <script>AOS.init();</script>
+    <script src="js/skills.js"></script>
+
 </body>
 
 </html>
