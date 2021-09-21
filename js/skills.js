@@ -2,25 +2,22 @@ $(document).ready(function () {
     $('.owl-carousel').owlCarousel({
         lazyLoad: true,
         loop: true,
-        margin: 30,
+        margin: 25,
         dots: true,
         responsive: {
             0: {
                 items: 1
             },
-            575: {
+            425: {
                 items: 1
             },
             768: {
                 items: 1
             },
-            992: {
-                items: 3
+            1024: {
+                items: 2
             },
-            1200: {
-                items: 3
-            },
-            1500: {
+            1440: {
                 items: 3
             }
         }
