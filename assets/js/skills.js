@@ -1,4 +1,12 @@
+window.addEventListener('touchmove', event => {
+    console.log(event);
+
+}, { passive: true });
+
+
+
 $(document).ready(function () {
+
     $('.owl-carousel').owlCarousel({
         lazyLoad: true,
         loop: true,
@@ -22,4 +30,11 @@ $(document).ready(function () {
             }
         }
     });
+
+    b = document.querySelectorAll('button.owl-dot');
+
+    for (var i = 0; i < b.length; i+=1) {
+        b[i].setAttribute("name", "dot");
+        b[i].setAttribute("aria-label", "dot");
+      }
 });

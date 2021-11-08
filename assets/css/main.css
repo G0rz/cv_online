@@ -25,10 +25,12 @@
 
 .current-date {
     color: rgb(10, 163, 0);
+    font-weight: bold;
 }
 
 .past-date {
-    color: rgb(148, 163, 186);
+    color: rgb(214, 79, 79);
+    font-weight: bold;
 }
 
 .card {
