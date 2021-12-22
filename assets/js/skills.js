@@ -33,8 +33,8 @@ $(document).ready(function () {
 
     b = document.querySelectorAll('button.owl-dot');
 
-    for (var i = 0; i < b.length; i+=1) {
+    for (var i = 0; i < b.length; i += 1) {
         b[i].setAttribute("name", "dot");
         b[i].setAttribute("aria-label", "dot");
-      }
+    }
 });
