@@ -67,4 +67,23 @@
     border-radius: 30px;
 }
 
+::-webkit-scrollbar {
+    width: 14px;
+    height: 14px;
+}
 
+::-webkit-scrollbar-thumb {
+    background: #FA8F87;
+    border-radius: 13px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #F7786F;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    border: 4px solid transparent;
+    border-radius: 13px;
+    box-shadow: inset 3px 3px 21px 0px #F5A6A6;
+}
