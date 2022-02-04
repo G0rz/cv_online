@@ -10,7 +10,7 @@ $(document).ready(function () {
     $('.owl-carousel').owlCarousel({
         lazyLoad: true,
         loop: true,
-        margin: 25,
+        margin: 20,
         dots: true,
         responsive: {
             0: {
@@ -23,7 +23,7 @@ $(document).ready(function () {
                 items: 1
             },
             1024: {
-                items: 2
+                items: 3
             },
             1440: {
                 items: 3
