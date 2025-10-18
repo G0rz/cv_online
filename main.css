@@ -1,0 +1,70 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body {
+    background: linear-gradient(180deg, #212122, #131314) fixed;
+    color: #E3E3E3;
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.header-bg {
+    width: 100%;
+    min-height: 45vh;
+    background: url('/assets/images/background.webp') center center / cover no-repeat;
+}
+
+.current-date {
+    color: #0aa300;
+    font-weight: bold;
+}
+
+.past-date {
+    color: #d64f4f;
+    font-weight: bold;
+}
+
+.carousel-css {
+    overflow: hidden;
+    display: flex;
+}
+
+.card-carousel {
+    border-radius: 32px;
+    padding: 1rem;
+}
+
+.card-carousel img {
+    object-fit: contain;
+}
+
+.group {
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+    will-change: transform;
+    animation: scroll 45s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 50px;
+    width: 50px;
+    display: none;
+    font-size: 2em;
+    font-weight: bold;
+}
