@@ -1,45 +1,44 @@
-# CV Online
+# Personal Portfolio Template
 
-This is a personal online CV website built with HTML, CSS, and JavaScript. It showcases skills, experience, and projects in a clean and modern design.
+This repository contains a modern, responsive, and fully customizable personal portfolio template built with fundamental web technologies. It is designed to help developers showcase their skills, experience, and projects in a clean and professional format. This template is perfect for those looking to create a personal brand and share their knowledge with the developer community.
 
-## Getting Started
+## Live Demo
 
-To get a local copy up and running, follow these simple steps.
+Check out the live demo [here](https://leonardobecerril.dev/).
 
-### Prerequisites
+## Features
 
-There are no special prerequisites for this project. You only need a modern web browser.
+*   **Modern & Clean Design:** A visually appealing layout that focuses on readability and user experience.
+*   **Fully Responsive:** Optimized for all screen sizes, from mobile devices to desktops.
+*   **Easy to Customize:** Built with clean, well-commented HTML, CSS, and JavaScript, making it easy to modify and personalize.
+*   **SEO Optimized:** Includes best practices for meta tags to improve search engine visibility.
+*   **Social Media Ready:** Pre-configured with Open Graph and Twitter Card meta tags for optimal sharing on social platforms.
 
-### Installation
 
-1.  Clone the repo
-    ```sh
-    git clone https://github.com/G0rz/cv_online
-    ```
-2.  Open `index.html` in your browser.
+## How to Use
 
-## File Structure
+To use this template, you can clone the repository.
 
-```
-.cv_online/
-├── assets/
-│   ├── css/
-│   │   ├── main.css
-│   ├── files/
-│   │   └── CV-LeonardoYaelBazánBecerril.pdf
-│   └── images/
-│       ├── background.webp
-├── index.html
-└── README.md
-```
+## Customization Guide
+
+| File          | Instructions                                                                                                                                                              |
+|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `index.html`  | Replace the placeholder text with your own information, including your name, job title, bio, and contact details. You can also add or remove sections as needed.             |
+| `main.css`    | Modify the colors, fonts, and layout to match your personal brand. The CSS is well-commented to make it easy to understand and modify.                                        |
+| `assets/`     | Replace the images in the `assets/images` directory with your own. The background image is set in the `main.css` file, and the other images are referenced in `index.html`. |
 
 ## Technologies Used
 
-*   [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-*   [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
-*   [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-*   [Bootstrap 5](https://getbootstrap.com/)
+*   **HTML5:** For the structure and content of the website.
+*   **CSS3:** For styling and layout, including a `linear-gradient` background and a responsive design.
+*   **JavaScript:** For interactive elements like the back-to-top button.
+*   **Bootstrap 5:** For the responsive grid system and UI components.
 
-## License
+## Contributing
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Contributions are welcome! If you have any ideas for improvements or find any bugs, feel free to open an issue or submit a pull request. Please make sure to follow the existing code style and provide a clear description of your changes.
+
+## Let's Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/typenull/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/G0rz)
