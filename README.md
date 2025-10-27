@@ -2,9 +2,11 @@
 
 This repository contains a modern, responsive, and fully customizable personal portfolio template built with fundamental web technologies. It is designed to help developers showcase their skills, experience, and projects in a clean and professional format. This template is perfect for those looking to create a personal brand and share their knowledge with the developer community.
 
+<img width="2880" height="5704" alt="leonardobecerril netlify app_" src="https://github.com/user-attachments/assets/1cb9127a-688c-46da-8917-309234c84900" />
+
 ## Live Demo
 
-Check out the live demo [here](https://leonardobecerril.dev/).
+Check out the live demo [here](https://leonardobecerril.netlify.app/).
 
 ## Features
 
