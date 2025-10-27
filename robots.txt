@@ -1,0 +1,6 @@
+# Allow all web crawlers to access all content
+User-agent: *
+Allow: /
+
+# Sitemap location (optional)
+Sitemap: https://leonardobecerril.netlify.app/sitemap.xml
