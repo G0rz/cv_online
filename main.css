@@ -14,7 +14,7 @@ body {
 .header-bg {
     width: 100%;
     min-height: 45vh;
-    background: url('/assets/images/background.webp') center / cover no-repeat;
+    background: url('/assets/images/background.jpg') center / cover no-repeat;
 }
 
 .header-text {
